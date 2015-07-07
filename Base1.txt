@@ -1,0 +1,70 @@
+{
+    "client_table":[	{
+				"id":"1",
+        			"nom":"Jean",
+ 				"prenom":"Michel",
+ 				"telephone":"9999999999",
+ 				"command":"3"
+			} 
+			{
+				"id":"2",
+        			"nom":"Marc",
+ 				"prenom":"Deguerlain",
+ 				"telephone":"9999999999",
+ 				"command":"5, 1"
+			} 
+			{
+				"id":"3",
+        			"nom":"Charlotte",
+ 				"prenom":"Deschamps",
+ 				"telephone":"9999999999",
+ 				"command":"2"
+			} 
+    ]
+}
+{
+    "product_table":[	{
+				"id":"1",
+        			"nom":"Eponge",
+				"prix":"5"
+			} 
+			{
+				"id":"2",
+        			"nom":"Seche-linge",
+				"prix":"100"
+			} 
+			{
+				"id":"3",
+        			"nom":"Voiture",
+				"prix":"15000"
+			} 
+    ]
+}
+{
+    "command_table":[	{
+				"id":"1",
+        			"product_id":"Jean",
+ 				"client_id":"2"
+			} 
+			{
+				"id":"2",
+        			"product_id":"Jean",
+ 				"client_id":"3"
+			} 
+			{
+				"id":"3",
+        			"product_id":"Jean",
+ 				"client_id":"1"
+			} 
+			{
+				"id":"4",
+        			"product_id":"Jean",
+ 				"client_id":"7"
+			} 
+			{
+				"id":"5",
+        			"product_id":"Jean",
+ 				"client_id":"2"
+			} 
+    ]
+}
