@@ -10,6 +10,9 @@ ORDRES = get , insert , set , remove , createBase , createTable , where , find ,
 -scinder en deux parties les arguments, premier order , second order_value
 -selon l'ordre -> action ( if else multiple)
 
+k- méthode createRequete(hasmap)
+- methode sendRequest(string requete) : renvoie le résultat
+
 #include "MyNoSql.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -77,9 +80,5 @@ main(int argc, char** argv){
 		}
 		for()(
 		*order_tab[a] = *argv[a];
-		
-	
 	}
-
-
 }
