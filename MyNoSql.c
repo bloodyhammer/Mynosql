@@ -12,6 +12,7 @@ ORDRES = get , insert , set , remove , createBase , createTable , where , find ,
 
 k- méthode createRequete(hasmap)
 - methode sendRequest(string requete) : renvoie le résultat
+-analyse de la requête() : renvoyer la requête dans une des méthodes : insert, select... en fonction du premier arguement
 
 #include "MyNoSql.h"
 #include <stdio.h>
